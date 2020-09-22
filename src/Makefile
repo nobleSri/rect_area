@@ -30,5 +30,6 @@ Rectangle.o: Rectangle.h Point.h
 .PHONY: clean
 clean:
 	rm -rf $(OBJ_DIR)
+    rm main
 
 $(shell mkdir -p $(OBJ_DIR))
